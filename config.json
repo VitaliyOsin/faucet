@@ -1,0 +1,29 @@
+{
+  "port": 48887,
+  "password": "gneiuhwiuhfgippassword_for_private_stats",
+  "vema": {
+    "node": "wss://2669f4827310.vps.myjino.ru",
+    "registrar": "vist",
+    "wif": "5KDwjYksDRHKgri7rJS89LB5TfazzkEW3eoPMxZswMmf9iZFU1z",
+    "default_referrer": "vist",
+    "referrer_percent": 0,
+    "core_asset": "VEMA",
+    "timeoutIp": 0,
+    "broadcastTx": true,
+    "allowPremium": true,
+    "allowCustomerReferer": false,
+    "sendAfterReg": {
+      "asset": "VEMA",
+      "amount": 100
+    },
+    "blackListNames": [
+      "bts",
+      "binance",
+      "poloni",
+      "huobi",
+      "coinex",
+      "bitshares",
+      "deposit"
+    ]
+  }
+}

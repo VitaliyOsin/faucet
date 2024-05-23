@@ -1,0 +1,185 @@
+(node:138648) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+AstraChain Faucet Running on port: 48887
+WebSocket status: open
+Unknown chain id (this may be a testnet) 121e13fc13854351d26e9a42912a4948f03bf16abbf0a1fcc1537dd18a94260d
+/home/prog_1/Astra/astra_faucet/node_modules/btsdex/dist/bitshares.js:117
+                BitShares.chain = res[0].network;
+                                         ^
+
+TypeError: Cannot read properties of undefined (reading 'network')
+    at Function._callee2$ (/home/prog_1/Astra/astra_faucet/node_modules/btsdex/dist/bitshares.js:117:42)
+    at tryCatch (/home/prog_1/Astra/astra_faucet/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (/home/prog_1/Astra/astra_faucet/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:133:17)
+    at Generator.next (/home/prog_1/Astra/astra_faucet/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (/home/prog_1/Astra/astra_faucet/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/prog_1/Astra/astra_faucet/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+(node:139016) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+AstraChain Faucet Running on port: 48887
+WebSocket status: open
+Unknown chain id (this may be a testnet) 121e13fc13854351d26e9a42912a4948f03bf16abbf0a1fcc1537dd18a94260d
+/home/prog_1/Astra/astra_faucet/node_modules/btsdex/dist/bitshares.js:117
+                BitShares.chain = res[0].network;
+                                         ^
+
+TypeError: Cannot read properties of undefined (reading 'network')
+    at Function._callee2$ (/home/prog_1/Astra/astra_faucet/node_modules/btsdex/dist/bitshares.js:117:42)
+    at tryCatch (/home/prog_1/Astra/astra_faucet/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (/home/prog_1/Astra/astra_faucet/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:133:17)
+    at Generator.next (/home/prog_1/Astra/astra_faucet/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (/home/prog_1/Astra/astra_faucet/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/prog_1/Astra/astra_faucet/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+{"level":"error","message":"Forever detected script exited with code: 1"}
+(node:6044) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+AstraChain Faucet Running on port: 48887
+WebSocket status: open
+-------------------------------------------------
+registrar 1.2.19 vist
+countRegs 0
+assetId 1.3.0 VEMA
+default referrer 1.2.19 vist
+premium names false
+send on new account 100 VEMA
+-------------------------------------------------
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #1"}
+AstraChain Faucet Running on port: 48887
+WebSocket status: open
+-------------------------------------------------
+registrar 1.2.19 vist
+countRegs 0
+assetId 1.3.0 VEMA
+default referrer 1.2.19 vist
+premium names false
+send on new account 100 VEMA
+-------------------------------------------------
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #2"}
+AstraChain Faucet Running on port: 48887
+WebSocket status: open
+-------------------------------------------------
+registrar 1.2.19 vist
+countRegs 0
+assetId 1.3.0 VEMA
+default referrer 1.2.19 vist
+premium names false
+send on new account 100 VEMA
+-------------------------------------------------
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+(node:281109) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+AstraChain Faucet Running on port: 48887
+WebSocket status: open
+-------------------------------------------------
+registrar 1.2.19 vist
+countRegs 0
+assetId 1.3.0 VEMA
+default referrer 1.2.19 vist
+premium names false
+send on new account 100 VEMA
+-------------------------------------------------
+ Apr 22 rtddytdtdytd34211243 ::ffff:42.116.127.84
+e Error: account_create.owner	 cause: authority.key_auths	 cause: Expecting key to begin with VEMA, instead got CBA5 
+ stack: AssertionError [ERR_ASSERTION]: Expecting key to begin with VEMA, instead got CBA5
+    at Function.fromStringOrThrow (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/ecc/src/PublicKey.js:132:26)
+    at Object.toPublic (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/serializer/src/types.js:920:77)
+    at Object.fromObject (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/serializer/src/types.js:935:33)
+    at Object.fromObject (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/serializer/src/types.js:893:47)
+    at Serializer.fromObject (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/serializer/src/serializer.js:101:35)
+    at Serializer.fromObject (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/serializer/src/serializer.js:101:35)
+    at TransactionBuilder.get_type_operation (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/chain/src/TransactionBuilder.js:287:40)
+    at TransactionBuilder.add_type_operation (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/chain/src/TransactionBuilder.js:49:33)
+    at /home/prog_1/Astra/astra_faucet/node_modules/btsdex/dist/transaction.js:50:25
+    at Array.forEach (<anonymous>)  
+ stack: Error: authority.key_auths	 cause: Expecting key to begin with VEMA, instead got CBA5 
+ stack: AssertionError [ERR_ASSERTION]: Expecting key to begin with VEMA, instead got CBA5
+    at Function.fromStringOrThrow (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/ecc/src/PublicKey.js:132:26)
+    at Object.toPublic (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/serializer/src/types.js:920:77)
+    at Object.fromObject (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/serializer/src/types.js:935:33)
+    at Object.fromObject (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/serializer/src/types.js:893:47)
+    at Serializer.fromObject (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/serializer/src/serializer.js:101:35)
+    at Serializer.fromObject (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/serializer/src/serializer.js:101:35)
+    at TransactionBuilder.get_type_operation (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/chain/src/TransactionBuilder.js:287:40)
+    at TransactionBuilder.add_type_operation (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/chain/src/TransactionBuilder.js:49:33)
+    at /home/prog_1/Astra/astra_faucet/node_modules/btsdex/dist/transaction.js:50:25
+    at Array.forEach (<anonymous>) 
+    at Function._throw [as throw] (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/serializer/src/error_with_cause.js:33:15)
+    at Serializer.fromObject (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/serializer/src/serializer.js:105:45)
+    at Serializer.fromObject (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/serializer/src/serializer.js:101:35)
+    at TransactionBuilder.get_type_operation (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/chain/src/TransactionBuilder.js:287:40)
+    at TransactionBuilder.add_type_operation (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/chain/src/TransactionBuilder.js:49:33)
+    at /home/prog_1/Astra/astra_faucet/node_modules/btsdex/dist/transaction.js:50:25
+    at Array.forEach (<anonymous>)
+    at Transaction.add (/home/prog_1/Astra/astra_faucet/node_modules/btsdex/dist/transaction.js:49:31)
+    at Proxy.<anonymous> (/home/prog_1/Astra/astra_faucet/node_modules/btsdex/dist/transaction.js:45:15)
+    at registerAccount (/home/prog_1/Astra/astra_faucet/routes/api.js:157:10) 
+    at Function._throw [as throw] (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/serializer/src/error_with_cause.js:33:15)
+    at Serializer.fromObject (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/serializer/src/serializer.js:105:45)
+    at TransactionBuilder.get_type_operation (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/chain/src/TransactionBuilder.js:287:40)
+    at TransactionBuilder.add_type_operation (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/chain/src/TransactionBuilder.js:49:33)
+    at /home/prog_1/Astra/astra_faucet/node_modules/btsdex/dist/transaction.js:50:25
+    at Array.forEach (<anonymous>)
+    at Transaction.add (/home/prog_1/Astra/astra_faucet/node_modules/btsdex/dist/transaction.js:49:31)
+    at Proxy.<anonymous> (/home/prog_1/Astra/astra_faucet/node_modules/btsdex/dist/transaction.js:45:15)
+    at registerAccount (/home/prog_1/Astra/astra_faucet/routes/api.js:157:10)
+    at /home/prog_1/Astra/astra_faucet/routes/api.js:230:20
+ Apr 22 ersrt45543 ::ffff:42.116.127.84
+e Error: account_create.owner	 cause: authority.key_auths	 cause: Expecting key to begin with VEMA, instead got CBA6 
+ stack: AssertionError [ERR_ASSERTION]: Expecting key to begin with VEMA, instead got CBA6
+    at Function.fromStringOrThrow (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/ecc/src/PublicKey.js:132:26)
+    at Object.toPublic (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/serializer/src/types.js:920:77)
+    at Object.fromObject (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/serializer/src/types.js:935:33)
+    at Object.fromObject (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/serializer/src/types.js:893:47)
+    at Serializer.fromObject (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/serializer/src/serializer.js:101:35)
+    at Serializer.fromObject (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/serializer/src/serializer.js:101:35)
+    at TransactionBuilder.get_type_operation (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/chain/src/TransactionBuilder.js:287:40)
+    at TransactionBuilder.add_type_operation (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/chain/src/TransactionBuilder.js:49:33)
+    at /home/prog_1/Astra/astra_faucet/node_modules/btsdex/dist/transaction.js:50:25
+    at Array.forEach (<anonymous>)  
+ stack: Error: authority.key_auths	 cause: Expecting key to begin with VEMA, instead got CBA6 
+ stack: AssertionError [ERR_ASSERTION]: Expecting key to begin with VEMA, instead got CBA6
+    at Function.fromStringOrThrow (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/ecc/src/PublicKey.js:132:26)
+    at Object.toPublic (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/serializer/src/types.js:920:77)
+    at Object.fromObject (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/serializer/src/types.js:935:33)
+    at Object.fromObject (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/serializer/src/types.js:893:47)
+    at Serializer.fromObject (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/serializer/src/serializer.js:101:35)
+    at Serializer.fromObject (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/serializer/src/serializer.js:101:35)
+    at TransactionBuilder.get_type_operation (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/chain/src/TransactionBuilder.js:287:40)
+    at TransactionBuilder.add_type_operation (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/chain/src/TransactionBuilder.js:49:33)
+    at /home/prog_1/Astra/astra_faucet/node_modules/btsdex/dist/transaction.js:50:25
+    at Array.forEach (<anonymous>) 
+    at Function._throw [as throw] (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/serializer/src/error_with_cause.js:33:15)
+    at Serializer.fromObject (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/serializer/src/serializer.js:105:45)
+    at Serializer.fromObject (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/serializer/src/serializer.js:101:35)
+    at TransactionBuilder.get_type_operation (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/chain/src/TransactionBuilder.js:287:40)
+    at TransactionBuilder.add_type_operation (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/chain/src/TransactionBuilder.js:49:33)
+    at /home/prog_1/Astra/astra_faucet/node_modules/btsdex/dist/transaction.js:50:25
+    at Array.forEach (<anonymous>)
+    at Transaction.add (/home/prog_1/Astra/astra_faucet/node_modules/btsdex/dist/transaction.js:49:31)
+    at Proxy.<anonymous> (/home/prog_1/Astra/astra_faucet/node_modules/btsdex/dist/transaction.js:45:15)
+    at registerAccount (/home/prog_1/Astra/astra_faucet/routes/api.js:157:10) 
+    at Function._throw [as throw] (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/serializer/src/error_with_cause.js:33:15)
+    at Serializer.fromObject (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/serializer/src/serializer.js:105:45)
+    at TransactionBuilder.get_type_operation (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/chain/src/TransactionBuilder.js:287:40)
+    at TransactionBuilder.add_type_operation (/home/prog_1/Astra/astra_faucet/node_modules/bitsharesjs/dist/chain/src/TransactionBuilder.js:49:33)
+    at /home/prog_1/Astra/astra_faucet/node_modules/btsdex/dist/transaction.js:50:25
+    at Array.forEach (<anonymous>)
+    at Transaction.add (/home/prog_1/Astra/astra_faucet/node_modules/btsdex/dist/transaction.js:49:31)
+    at Proxy.<anonymous> (/home/prog_1/Astra/astra_faucet/node_modules/btsdex/dist/transaction.js:45:15)
+    at registerAccount (/home/prog_1/Astra/astra_faucet/routes/api.js:157:10)
+    at /home/prog_1/Astra/astra_faucet/routes/api.js:230:20
+(node:676843) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+AstraChain Faucet Running on port: 48887
+WebSocket status: open
+-------------------------------------------------
+registrar 1.2.19 vist
+countRegs 5
+assetId 1.3.0 VEMA
+default referrer 1.2.19 vist
+premium names false
+send on new account 100 VEMA
+-------------------------------------------------

@@ -1,0 +1,19 @@
+{
+  "port": 48887,
+  "bts": {
+    "node": "wss://testnet.xbts.io/ws",
+    "registrar": "your_bitshares_testnet_account",
+    "wif": "your_private_active_key_here",
+    "default_referrer": "your_bitshares_testnet_account",
+    "referrer_percent": 50,
+    "core_asset": "TEST",
+    "timeoutIp": 1800,
+    "broadcastTx": true,
+    "allowPremium": false,
+    "allowCustomerReferer": true,
+    "sendAfterReg": {
+      "asset": "TEST",
+      "amount": 10
+    }
+  }
+}
